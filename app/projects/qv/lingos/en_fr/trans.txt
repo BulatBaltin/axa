@@ -1,0 +1,109 @@
+Name   => Nom
+Code  => Code
+Clients List   => Liste des clients
+Automation   => Automatisation
+Office   => Bureau
+INVOICE AUTOMATION   => AUTOMATISATION DES FACTURES
+START NOW   => COMMENCEZ MAINTENANT
+Dashboard   => Tableau de bord
+Invoice hours   => Heures de facturation
+Invoice list   => Liste des factures
+Transactions   => Transactions
+Settings   => Réglages
+Companies / Configurations   => Entreprises / Configurations
+Product management   => Gestion des produits
+Client management   => La gestion des clients
+Employee management   => Gestion des employés
+User management   => Gestion des utilisateurs
+Api connections (Toggl)   => Connexions API (Toggl)
+Api connections (Accounting)   => Connexions API (comptabilité)
+Mapping Clients to Projects   => Mappage des clients aux projets
+Interface Language   => Langue de l'interface
+Company Logo   => Logo d'entreprise
+Edit   => Éditer
+Save   => sauvegarder
+Delete   => Supprimer
+No records found   => Aucun enregistrement trouvé
+Create new   => Créer un nouveau
+Are you sure you want to delete this object?   => Voulez-vous vraiment supprimer cet objet?
+Back to list   => Retour à la liste
+Actions   => Actions
+
+// Client 
+Client Name   => Nom du client
+Toggl ID      => Toggl ID
+Address       => Adresse
+Post code     => Code postal
+Activity      => Activité
+Telephone     => Téléphone
+E-Mail        => Email
+URL   => URL
+Contact person   => Contact
+Pay rate      => Taux de rémunération
+Clients refreshed     => Clients rafraîchis
+Success: Added / Updated entries   => Succès: entrées ajoutées / mises à jour
+Clients data were updated from Accounting   => Les données des clients ont été mises à jour à partir de la comptabilité
+Add a new Client      => Ajouter un nouveau client
+Edit Client           => Modifier le client
+
+// Company & Configurations
+Company Name   => Nom de la compagnie
+Companies and Configurations of parameters   => Entreprises et configurations de paramètres
+Add a new Company / Configuration   => Ajouter une nouvelle société / configuration
+Motto   => Devise
+Tagline   => Slogan
+Main Configuration   => Configuration principale
+Toggl id (cid)   => Toggl id (cid)
+Login of Accounting software   => Connexion du logiciel de comptabilité
+Accounting Login   => Connexion comptabilité
+(Accounting) Login   => (Comptabilité) Connexion
+(Accounting) Security key-1   => (Comptabilité) Clé de sécurité-1
+Accounting Key1   => Clé comptable1
+(Accounting) Security key-2   => (Comptabilité) Clé de sécurité-2
+Accounting Key2   => Clé comptable2
+Round Hours   => Heures rondes
+VAT %   => TVA%
+Back to companies list   => Retour à la liste des entreprises
+Company / Configuration   => Société / Configuration
+
+// Employee
+Employee ID   => ID d'employé
+Employee Name   => Nom de l'employé
+Toggl user-token   => Toggl nom d'utilisateur
+Employee List   => Liste des employés
+Add a new Employee   => Ajouter un nouvel employé
+Edit Employee   => Modifier l'employé
+Employees refreshed   => Rafraîchissement des employés
+Employees data were updated from Toggl   => Les données des employés ont été mises à jour depuis Toggl
+
+// ===================== PORTION 2 ===================
+// Invoice
+New Invoice   => Nouvelle facture
+Last invoice created at   => Dernière facture créée à
+
+// Dashboard
+Hours dashboard   => Tableau de bord des heures
+Amount of time it took to invoice hours   => Temps nécessaire pour facturer des heures
+Lost hours, hours which cannot be invoiced   => Heures perdues, heures non facturables
+Working hours   => Heures d'ouverture
+Not Invoiced hours   => Heures non facturées
+Invoiced but unbillable hours   => Heures facturées mais non facturables
+Billable hours   => Heures facturables
+
+// Time tracking
+Time Tracking App   => Application de suivi du temps
+Time Tracking App ID  => ID de l'application de suivi du temps
+Time Tracking Apps   => Applications de suivi du temps
+Time Tracking App Name    => Nom de l'application de suivi du temps
+Time Tracking App Class   => Classe d'application de suivi du temps
+Time Tracking App List   => Liste des applications de suivi du temps
+Add a new Time Tracking App   => Ajouter une nouvelle application de suivi du temps
+Edit Time Tracking App   => Modifier l'application de suivi du temps
+Time Tracking App token   => Jeton d'application de suivi du temps
+
+// Language
+Language   => Langue
+Language List   => Liste des langues
+Name of the Language  => Nom de la langue
+Add a new Language   => Ajouter une nouvelle langue
+Edit Language   => Modifier la langue

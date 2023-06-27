@@ -1,0 +1,2 @@
+<?
+APP::isLayout(false);

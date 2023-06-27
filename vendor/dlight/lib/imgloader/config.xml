@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<params>
+    <path>http://www.penatis.com/ajax/loadphoto2.php</path>
+    <sizeW>700</sizeW>
+    <sizeH>700</sizeH>
+    <jpg_quality>90</jpg_quality>
+</params>

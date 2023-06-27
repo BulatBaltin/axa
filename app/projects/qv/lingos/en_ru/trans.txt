@@ -1,0 +1,107 @@
+Name   => имя
+Clients List   => Список клиентов
+Automation   => автоматизация
+Office   => офис
+INVOICE AUTOMATION   => АВТОМАТИЗАЦИЯ СЧЕТА
+START NOW   => НАЧИНАЙ СЕЙЧАС
+Dashboard   => Приборная доска
+Invoice hours   => Часы счета
+Invoice list   => Список счетов
+Transactions   => операции
+Settings   => настройки
+Companies / Configurations   => Компании / Конфигурации
+Product management   => Управление продуктом
+Client management   => Управление клиентами
+Employee management   => Управление персоналом
+User management   => Управление пользователями
+Api connections (Toggl)   => Api соединения (Тоггл)
+Api connections (Accounting)   => API-соединения (Бухгалтерия)
+Mapping Clients to Projects   => Отображение клиентов на проекты
+Interface Language   => Язык интерфейса
+Company Logo   => Логотип компании
+Edit   => редактировать
+Save   => Сохранить
+Delete   => удалять
+No records found   => записей не найдено
+Create new   => Создайте новый
+Are you sure you want to delete this object?   => Вы уверены, что хотите удалить этот объект?
+Back to list   => Обратно к списку
+Actions   => действия
+
+// Client 
+Client Name   => имя клиента
+Toggl ID      => Toggl ID
+Address       => Адрес
+Post code     => Почтовый индекс
+Activity      => Мероприятия
+Telephone     => телефон
+E-Mail        => Эл. почта
+URL   => URL
+Contact person   => Контактное лицо
+Pay rate      => Ставка оплаты
+Clients refreshed     => Клиенты обновились
+Success: Added / Updated entries   => Успех: добавлены / обновлены записи
+Clients data were updated from Accounting   => Данные клиентов были обновлены из учета
+Add a new Client      => Добавить нового клиента
+Edit Client           => Изменить клиент
+
+// Company & Configurations
+Company Name   => Название компании
+Companies and Configurations of parameters   => Компании и конфигурации параметров
+Add a new Company / Configuration   => Добавить новую компанию / конфигурацию
+Motto   => девиз
+Tagline   => Подзаголовок
+Main Configuration   => Основная конфигурация
+Toggl id (cid)   => Toggl id (cid)
+Login of Accounting software   => Логин бухгалтерского программного обеспечения
+Accounting Login   => Учетная запись
+(Accounting) Login   => (Бухгалтерский учет) Войти
+(Accounting) Security key-1   => (Бухгалтерский учет) Ключ безопасности-1
+Accounting Key1   => Бухгалтерский ключ1
+(Accounting) Security key-2   => (Бухгалтерский учет) Ключ безопасности-2
+Accounting Key2   => Бухгалтерский ключ2
+Round Hours   => Круглые часы
+VAT %   => НДС,%
+Back to companies list   => Вернуться к списку компаний
+Company / Configuration   => Компания / Конфигурация
+
+// Employee
+Employee ID   => ID сотрудника
+Employee Name   => Имя сотрудника
+Toggl user-token   => Toggl пользовательский токен
+Employee List   => Список сотрудников
+Add a new Employee   => Добавить нового сотрудника
+Edit Employee   => Изменить сотрудника
+Employees refreshed   => Сотрудники обновились
+Employees data were updated from Toggl   => Данные о сотрудниках были обновлены из Toggl
+
+// ===================== PORTION 2 ===================
+// Invoice
+New Invoice   => Новый Счет
+Last invoice created at   => Последний счет создан в
+
+// Dashboard
+Hours dashboard   => Часы приборной панели
+Amount of time it took to invoice hours   => Время, затраченное на выставление счетов
+Lost hours, hours which cannot be invoiced   => Потерянные часы, часы, на которые нельзя выставить счет
+Working hours   => Рабочее время
+Not Invoiced hours   => Не выставленные счета
+Invoiced but unbillable hours   => Счета, но неоплачиваемые часы
+Billable hours   => Оплачиваемые часы
+
+// Time tracking
+Time Tracking App   => Приложение для отслеживания времени
+Time Tracking Apps   => Приложения для отслеживания времени
+Time Tracking App Name    => Название приложения отслеживания времени
+Time Tracking App Class   => Приложение для отслеживания времени
+Time Tracking App List   => Список приложений для отслеживания времени
+Add a new Time Tracking App   => Добавить новое приложение для отслеживания времени
+Edit Time Tracking App   => Приложение для редактирования времени
+Time Tracking App token   => Токен приложения Time Tracking
+
+// Language
+Language   => язык
+Language List   => Список языков
+Name of the Language  => Название языка
+Add a new Language   => Добавить новый язык
+Edit Language   => Изменить язык

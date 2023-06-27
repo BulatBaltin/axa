@@ -1,0 +1,60 @@
+.title {
+  width: 100%;
+  float: left;
+  line-height: 46px;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ED2553;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  margin-top: 50px;
+  height: 30px;
+  position: relative;
+}
+
+.input label {
+  /* line-height: 24px;
+  font-size: 18px; */
+  color: grey;
+
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+input {
+  border: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 1rem !important;
+  height: 24px !important;
+  line-height: 24px !important;
+}
+/*textarea:focus, input:focus{*/
+input:focus{
+    outline: none;
+}
+
+.spin-box {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.pass-forgot {
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+}

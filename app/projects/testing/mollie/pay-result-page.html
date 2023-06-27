@@ -1,0 +1,71 @@
+<section class="content">
+    <div class="block-header">
+        <div class="page-heading">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-lg-7 col-md-6 col-sm-12">
+                        <h2><?l('Payment result page')?></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="mb-4">
+
+        <div class="sub-title">
+            <?= $title ?></div>
+        <hr style="margin:10px 0px;">
+
+        <a href="<?= get_url('invoices') ?>" class='btn'><? l('Back to student invoices') ?>
+        </a>
+        
+        <div style=" font-size: 18px;padding:1rem 0px;line-height: 2rem;">
+            <div>
+                <div>
+                    <? if (isset($message) and !empty($message)) { ?>
+                        <div class="alert shadow2" style="padding:2rem;">
+                            <button class="close" data-dismiss="alert">×</button>
+                            <strong><? l('Message') ?>:<br></strong>
+                            <span style="font-size: 1rem;"><?= $message ?></span>
+                        </div>
+                    <? } ?>
+        
+                    <? if (isset($total_zero)) { ?>
+                        <div class="alert alert-success shadow2" style="padding:2rem;">
+                            <button class=" close" data-dismiss="alert">×</button>
+                            <strong><? l('Congratulations') ?>!<br></strong>
+                            <span style="font-size: 1rem;"><?= $total_zero ?></span>
+                        </div>
+                    <? } ?>
+        
+                    <? if (isset($success)) { ?>
+        
+                        <div class="alert alert-success shadow2" style="padding:2rem;">
+                            <button class="close" data-dismiss="alert">×</button>
+                            <strong><? l('Congratulations') ?>!<br></strong>
+                            <span style="font-size: 1rem;"><?= $success ?></span>
+                        </div>
+        
+                    <? } ?>
+        
+                    <? if (isset($warning)) { ?>
+        
+                        <div class="alert shadow2" style="padding:2rem;">
+                            <button class="close" data-dismiss="alert">×</button>
+                            <strong><? l('Notification') ?>!<br></strong>
+                            <?= $warning ?>
+                        </div>
+                    <? } ?>
+        
+                    <? if (isset($errors)) { ?>
+                        <div class="alert alert-error shadow2" style="padding:2rem;">
+                            <button class="close" data-dismiss="alert">×</button>
+                            <strong><?l('Error')?>!<br></strong><?= $errors ?>
+                        </div>
+                    <? } ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

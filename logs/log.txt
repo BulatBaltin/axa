@@ -1,0 +1,1216 @@
+
+STEP-2
+
+
+Step-2-x ItemGood =13227
+
+Step-2-01
+(array) size(8) [
+. . . id => 169
+. . . customer_id => 162
+. . . company_id => 1
+. . . name => Spraybest.nl
+. . . pid => 1527551
+. . . description => 
+. . . visibility => 
+. . . grouppa => 
+]
+
+Step-2-02
+(array) size(27) [
+. . . id => 13227
+. . . invoice_id => 
+. . . artikul_id => 
+. . . customer_id => 162
+. . . project_id => 169
+. . . user_id => 17
+. . . company_id => 1
+. . . position => 0
+. . . tid => 21664861
+. . . task => Create four new blocks
+. . . tasknl => 13/06/23 #21664861 Maak vier nieuwe blokken
+. . . quantity => 1.400
+. . . quantityplan => 1.400
+. . . quantitylost => 0.000
+. . . price => 
+. . . total => 
+. . . start => 2023-06-13T20:54:00Z
+. . . stop => 2023-06-13T23:08:29Z
+. . . period => 2023-06-13
+. . . created_at => 
+. . . updated_at => 2023-06-15 04:00:11
+. . . status => 
+. . . score => 1
+. . . level => =
+. . . source => Teamwork
+. . . import => 2023-06-15 04:00:11
+. . . tag => 
+]
+
+Step-2-3
+
+
+(1)LAST FOR invoice
+
+(1.2)LAST FOR invoice
+(array) size(2) [
+. . . 0 => 1173
+. . . LAST_INSERT_ID() => 1173
+]
+INSERT INTO invoice (id,customer_id,company_id,doc_date,doc_number,order_id,bill_id,currency_code,total,tax_total,status,status0,status1,vatcoeff,vatsum,totalvat,mark,quantity,factuurnummer,datum,urlpdfbestand,submitted_at,period,tag) VALUES (NULL,'162','1','2023-06-27 13:42:45','202352',NULL,NULL,'EUR',NULL,NULL,'not ready','open','manual',21,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2023-06','') ;
+
+(2)LAST FOR invoice
+1173
+(array) size(2) [
+. . . 0 => 1173
+. . . LAST_INSERT_ID() => 1173
+]
+INSERT INTO invoice (id,customer_id,company_id,doc_date,doc_number,order_id,bill_id,currency_code,total,tax_total,status,status0,status1,vatcoeff,vatsum,totalvat,mark,quantity,factuurnummer,datum,urlpdfbestand,submitted_at,period,tag) VALUES (NULL,'162','1','2023-06-27 13:42:45','202352',NULL,NULL,'EUR',NULL,NULL,'not ready','open','manual',21,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2023-06','') ;
+
+Step-2-4 fetchInvoice
+(array) size(25) [
+. . . id => 1173
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:42:45
+. . . doc_number => 202352
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21
+. . . vatsum => 
+. . . totalvat => 
+. . . mark => 
+. . . quantity => 
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(0) [
+. . . ]
+]
+
+Step-3
+(array) size(25) [
+. . . id => 1173
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:42:45
+. . . doc_number => 202352
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21
+. . . vatsum => 
+. . . totalvat => 
+. . . mark => 
+. . . quantity => 
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(0) [
+. . . ]
+]
+
+Step-2-x ItemGood =13210
+
+Step-2-01
+(array) size(8) [
+. . . id => 169
+. . . customer_id => 162
+. . . company_id => 1
+. . . name => Spraybest.nl
+. . . pid => 1527551
+. . . description => 
+. . . visibility => 
+. . . grouppa => 
+]
+
+Step-2-02
+(array) size(27) [
+. . . id => 13210
+. . . invoice_id => 
+. . . artikul_id => 
+. . . customer_id => 162
+. . . project_id => 169
+. . . user_id => 77
+. . . company_id => 1
+. . . position => 0
+. . . tid => 21479804
+. . . task => How to show information in this issue on contact page?
+. . . tasknl => Hoe toon ik informatie in dit nummer op de contactpagina?
+. . . quantity => 0.083
+. . . quantityplan => 0.083
+. . . quantitylost => 0.000
+. . . price => 
+. . . total => 
+. . . start => 2023-06-11T19:52:00Z
+. . . stop => 2023-06-11T20:02:28Z
+. . . period => 2023-06-11
+. . . created_at => 
+. . . updated_at => 2023-06-12 04:00:11
+. . . status => 
+. . . score => 1
+. . . level => =
+. . . source => Teamwork
+. . . import => 2023-06-12 04:00:11
+. . . tag => 
+]
+
+Step-2-3
+(array) size(25) [
+. . . id => 1173
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:42:45
+. . . doc_number => 202352
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21
+. . . vatsum => 
+. . . totalvat => 
+. . . mark => 
+. . . quantity => 
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(1) [
+. . . . . . (array) size(27) [
+. . . . . . . . . id => 13227
+. . . . . . . . . invoice_id => 1173
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 17
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21664861
+. . . . . . . . . task => Create four new blocks
+. . . . . . . . . tasknl => 13/06/23 #21664861 Maak vier nieuwe blokken
+. . . . . . . . . quantity => 1.4
+. . . . . . . . . quantityplan => 1.400
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-13T20:54:00Z
+. . . . . . . . . stop => 2023-06-13T23:08:29Z
+. . . . . . . . . period => 2023-06-13
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-15 04:00:11
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-15 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . ]
+]
+
+Step-3
+(array) size(25) [
+. . . id => 1173
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:42:45
+. . . doc_number => 202352
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21
+. . . vatsum => 
+. . . totalvat => 
+. . . mark => 
+. . . quantity => 
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(1) [
+. . . . . . (array) size(27) [
+. . . . . . . . . id => 13227
+. . . . . . . . . invoice_id => 1173
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 17
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21664861
+. . . . . . . . . task => Create four new blocks
+. . . . . . . . . tasknl => 13/06/23 #21664861 Maak vier nieuwe blokken
+. . . . . . . . . quantity => 1.4
+. . . . . . . . . quantityplan => 1.400
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-13T20:54:00Z
+. . . . . . . . . stop => 2023-06-13T23:08:29Z
+. . . . . . . . . period => 2023-06-13
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-15 04:00:11
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-15 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . ]
+]
+
+toRelease
+(array) size(0) [
+]
+
+STEP-2
+
+
+Step-2-x ItemGood =13206
+
+Step-2-01
+(array) size(8) [
+. . . id => 169
+. . . customer_id => 162
+. . . company_id => 1
+. . . name => Spraybest.nl
+. . . pid => 1527551
+. . . description => 
+. . . visibility => 
+. . . grouppa => 
+]
+
+Step-2-02
+(array) size(27) [
+. . . id => 13206
+. . . invoice_id => 
+. . . artikul_id => 
+. . . customer_id => 162
+. . . project_id => 169
+. . . user_id => 17
+. . . company_id => 1
+. . . position => 0
+. . . tid => 21479804
+. . . task => How to show information in this issue on contact page?
+. . . tasknl => Hoe toon ik informatie in dit nummer op de contactpagina?
+. . . quantity => 1.317
+. . . quantityplan => 1.317
+. . . quantitylost => 0.000
+. . . price => 
+. . . total => 
+. . . start => 2023-06-11T18:24:00Z
+. . . stop => 2023-06-11T19:22:46Z
+. . . period => 2023-06-11
+. . . created_at => 
+. . . updated_at => 2023-06-12 04:00:11
+. . . status => 
+. . . score => 1
+. . . level => =
+. . . source => Teamwork
+. . . import => 2023-06-12 04:00:11
+. . . tag => 
+]
+
+Step-2-3
+
+
+(1)LAST FOR invoice
+
+(1.2)LAST FOR invoice
+(array) size(2) [
+. . . 0 => 1174
+. . . LAST_INSERT_ID() => 1174
+]
+INSERT INTO invoice (id,customer_id,company_id,doc_date,doc_number,order_id,bill_id,currency_code,total,tax_total,status,status0,status1,vatcoeff,vatsum,totalvat,mark,quantity,factuurnummer,datum,urlpdfbestand,submitted_at,period,tag) VALUES (NULL,'162','1','2023-06-27 13:44:24','202353',NULL,NULL,'EUR',NULL,NULL,'not ready','open','manual',21,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2023-06','') ;
+
+(2)LAST FOR invoice
+1174
+(array) size(2) [
+. . . 0 => 1174
+. . . LAST_INSERT_ID() => 1174
+]
+INSERT INTO invoice (id,customer_id,company_id,doc_date,doc_number,order_id,bill_id,currency_code,total,tax_total,status,status0,status1,vatcoeff,vatsum,totalvat,mark,quantity,factuurnummer,datum,urlpdfbestand,submitted_at,period,tag) VALUES (NULL,'162','1','2023-06-27 13:44:24','202353',NULL,NULL,'EUR',NULL,NULL,'not ready','open','manual',21,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2023-06','') ;
+
+Step-2-4 fetchInvoice
+(array) size(25) [
+. . . id => 1174
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:44:24
+. . . doc_number => 202353
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21
+. . . vatsum => 
+. . . totalvat => 
+. . . mark => 
+. . . quantity => 
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(0) [
+. . . ]
+]
+
+Step-3
+(array) size(25) [
+. . . id => 1174
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:44:24
+. . . doc_number => 202353
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21
+. . . vatsum => 
+. . . totalvat => 
+. . . mark => 
+. . . quantity => 
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(0) [
+. . . ]
+]
+
+Step-2-x ItemGood =13141
+
+Step-2-01
+(array) size(8) [
+. . . id => 169
+. . . customer_id => 162
+. . . company_id => 1
+. . . name => Spraybest.nl
+. . . pid => 1527551
+. . . description => 
+. . . visibility => 
+. . . grouppa => 
+]
+
+Step-2-02
+(array) size(27) [
+. . . id => 13141
+. . . invoice_id => 
+. . . artikul_id => 
+. . . customer_id => 162
+. . . project_id => 169
+. . . user_id => 46
+. . . company_id => 1
+. . . position => 0
+. . . tid => 21661392
+. . . task => www.spraybest.be/ --> spraybest.be
+. . . tasknl => www.spraybest.be/ --&gt; spraybest.be
+. . . quantity => 0.183
+. . . quantityplan => 0.183
+. . . quantitylost => 0.000
+. . . price => 
+. . . total => 
+. . . start => 2023-06-09T17:44:00Z
+. . . stop => 2023-06-09T18:14:14Z
+. . . period => 2023-06-09
+. . . created_at => 
+. . . updated_at => 2023-06-10 04:00:10
+. . . status => 
+. . . score => 1
+. . . level => =
+. . . source => Teamwork
+. . . import => 2023-06-10 04:00:10
+. . . tag => 
+]
+
+Step-2-3
+(array) size(25) [
+. . . id => 1174
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:44:24
+. . . doc_number => 202353
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21
+. . . vatsum => 
+. . . totalvat => 
+. . . mark => 
+. . . quantity => 
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(1) [
+. . . . . . (array) size(27) [
+. . . . . . . . . id => 13206
+. . . . . . . . . invoice_id => 1174
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 17
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21479804
+. . . . . . . . . task => How to show information in this issue on contact page?
+. . . . . . . . . tasknl =>  #21479804 Hoe toon ik informatie in dit nummer op de contactpagina?
+. . . . . . . . . quantity => 1.317
+. . . . . . . . . quantityplan => 1.317
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-11T18:24:00Z
+. . . . . . . . . stop => 2023-06-11T19:22:46Z
+. . . . . . . . . period => 2023-06-11
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-12 04:00:11
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-12 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . ]
+]
+
+Step-3
+(array) size(25) [
+. . . id => 1174
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:44:24
+. . . doc_number => 202353
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21
+. . . vatsum => 
+. . . totalvat => 
+. . . mark => 
+. . . quantity => 
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(1) [
+. . . . . . (array) size(27) [
+. . . . . . . . . id => 13206
+. . . . . . . . . invoice_id => 1174
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 17
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21479804
+. . . . . . . . . task => How to show information in this issue on contact page?
+. . . . . . . . . tasknl =>  #21479804 Hoe toon ik informatie in dit nummer op de contactpagina?
+. . . . . . . . . quantity => 1.317
+. . . . . . . . . quantityplan => 1.317
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-11T18:24:00Z
+. . . . . . . . . stop => 2023-06-11T19:22:46Z
+. . . . . . . . . period => 2023-06-11
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-12 04:00:11
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-12 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . ]
+]
+
+toRelease
+(array) size(0) [
+]
+
+STEP-2
+(array) size(25) [
+. . . id => 1173
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:42:45
+. . . doc_number => 202352
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 0.00
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21.00
+. . . vatsum => 0.00
+. . . totalvat => 0.00
+. . . mark => 
+. . . quantity => 1.483
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(2) [
+. . . . . . (array) size(27) [
+. . . . . . . . . id => 13210
+. . . . . . . . . invoice_id => 1173
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 77
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 2
+. . . . . . . . . tid => 21479804
+. . . . . . . . . task => How to show information in this issue on contact page?
+. . . . . . . . . tasknl =>  #21479804 Hoe toon ik informatie in dit nummer op de contactpagina?
+. . . . . . . . . quantity => 0.083
+. . . . . . . . . quantityplan => 0.083
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-11T19:52:00Z
+. . . . . . . . . stop => 2023-06-11T20:02:28Z
+. . . . . . . . . period => 2023-06-11
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:42:45
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-12 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . . . . 1=>(array) size(27) [
+. . . . . . . . . id => 13227
+. . . . . . . . . invoice_id => 1173
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 17
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21664861
+. . . . . . . . . task => Create four new blocks
+. . . . . . . . . tasknl => 13/06/23 #21664861 Maak vier nieuwe blokken
+. . . . . . . . . quantity => 1.400
+. . . . . . . . . quantityplan => 1.400
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-13T20:54:00Z
+. . . . . . . . . stop => 2023-06-13T23:08:29Z
+. . . . . . . . . period => 2023-06-13
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:42:45
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-15 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . ]
+]
+
+Step-2-x ItemGood =13142
+
+Step-2-01
+(array) size(8) [
+. . . id => 169
+. . . customer_id => 162
+. . . company_id => 1
+. . . name => Spraybest.nl
+. . . pid => 1527551
+. . . description => 
+. . . visibility => 
+. . . grouppa => 
+]
+
+Step-2-02
+(array) size(27) [
+. . . id => 13142
+. . . invoice_id => 
+. . . artikul_id => 
+. . . customer_id => 162
+. . . project_id => 169
+. . . user_id => 63
+. . . company_id => 1
+. . . position => 0
+. . . tid => 21659943
+. . . task => Fatal error in back office
+. . . tasknl => 09/06/23 #21659943 Fatale fout in backoffice
+. . . quantity => 0.400
+. . . quantityplan => 0.400
+. . . quantitylost => 0.000
+. . . price => 
+. . . total => 
+. . . start => 2023-06-09T12:58:00Z
+. . . stop => 2023-06-09T13:21:40Z
+. . . period => 2023-06-09
+. . . created_at => 
+. . . updated_at => 2023-06-11 04:00:10
+. . . status => 
+. . . score => 1
+. . . level => =
+. . . source => Teamwork
+. . . import => 2023-06-11 04:00:10
+. . . tag => 
+]
+
+Step-2-3
+(array) size(25) [
+. . . id => 1173
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:42:45
+. . . doc_number => 202352
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 0.00
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21.00
+. . . vatsum => 0.00
+. . . totalvat => 0.00
+. . . mark => 
+. . . quantity => 1.483
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(2) [
+. . . . . . (array) size(27) [
+. . . . . . . . . id => 13210
+. . . . . . . . . invoice_id => 1173
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 77
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 2
+. . . . . . . . . tid => 21479804
+. . . . . . . . . task => How to show information in this issue on contact page?
+. . . . . . . . . tasknl =>  #21479804 Hoe toon ik informatie in dit nummer op de contactpagina?
+. . . . . . . . . quantity => 0.083
+. . . . . . . . . quantityplan => 0.083
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-11T19:52:00Z
+. . . . . . . . . stop => 2023-06-11T20:02:28Z
+. . . . . . . . . period => 2023-06-11
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:42:45
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-12 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . . . . 1=>(array) size(27) [
+. . . . . . . . . id => 13227
+. . . . . . . . . invoice_id => 1173
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 17
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21664861
+. . . . . . . . . task => Create four new blocks
+. . . . . . . . . tasknl => 13/06/23 #21664861 Maak vier nieuwe blokken
+. . . . . . . . . quantity => 1.400
+. . . . . . . . . quantityplan => 1.400
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-13T20:54:00Z
+. . . . . . . . . stop => 2023-06-13T23:08:29Z
+. . . . . . . . . period => 2023-06-13
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:42:45
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-15 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . ]
+]
+
+Step-3
+(array) size(25) [
+. . . id => 1173
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:42:45
+. . . doc_number => 202352
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 0.00
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21.00
+. . . vatsum => 0.00
+. . . totalvat => 0.00
+. . . mark => 
+. . . quantity => 1.483
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(2) [
+. . . . . . (array) size(27) [
+. . . . . . . . . id => 13210
+. . . . . . . . . invoice_id => 1173
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 77
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 2
+. . . . . . . . . tid => 21479804
+. . . . . . . . . task => How to show information in this issue on contact page?
+. . . . . . . . . tasknl =>  #21479804 Hoe toon ik informatie in dit nummer op de contactpagina?
+. . . . . . . . . quantity => 0.083
+. . . . . . . . . quantityplan => 0.083
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-11T19:52:00Z
+. . . . . . . . . stop => 2023-06-11T20:02:28Z
+. . . . . . . . . period => 2023-06-11
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:42:45
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-12 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . . . . 1=>(array) size(27) [
+. . . . . . . . . id => 13227
+. . . . . . . . . invoice_id => 1173
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 17
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21664861
+. . . . . . . . . task => Create four new blocks
+. . . . . . . . . tasknl => 13/06/23 #21664861 Maak vier nieuwe blokken
+. . . . . . . . . quantity => 1.400
+. . . . . . . . . quantityplan => 1.400
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-13T20:54:00Z
+. . . . . . . . . stop => 2023-06-13T23:08:29Z
+. . . . . . . . . period => 2023-06-13
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:42:45
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-15 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . ]
+]
+
+toRelease
+(array) size(0) [
+]
+
+STEP-2
+(array) size(25) [
+. . . id => 1174
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:44:24
+. . . doc_number => 202353
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 6.77
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21.00
+. . . vatsum => 1.42
+. . . totalvat => 8.19
+. . . mark => 
+. . . quantity => 1.500
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(2) [
+. . . . . . (array) size(27) [
+. . . . . . . . . id => 13141
+. . . . . . . . . invoice_id => 1174
+. . . . . . . . . artikul_id => 6
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 46
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21661392
+. . . . . . . . . task => www.spraybest.be/ --> spraybest.be
+. . . . . . . . . tasknl =>  #21661392 www.spraybest.be/ --> spraybest.be
+. . . . . . . . . quantity => 0.183
+. . . . . . . . . quantityplan => 0.183
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 37.00
+. . . . . . . . . total => 6.77
+. . . . . . . . . start => 2023-06-09T17:44:00Z
+. . . . . . . . . stop => 2023-06-09T18:14:14Z
+. . . . . . . . . period => 2023-06-09
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:44:36
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-10 04:00:10
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . . . . 1=>(array) size(27) [
+. . . . . . . . . id => 13206
+. . . . . . . . . invoice_id => 1174
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 17
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21479804
+. . . . . . . . . task => How to show information in this issue on contact page?
+. . . . . . . . . tasknl =>  #21479804 Hoe toon ik informatie in dit nummer op de contactpagina?
+. . . . . . . . . quantity => 1.317
+. . . . . . . . . quantityplan => 1.317
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-11T18:24:00Z
+. . . . . . . . . stop => 2023-06-11T19:22:46Z
+. . . . . . . . . period => 2023-06-11
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:44:24
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-12 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . ]
+]
+
+Step-2-x ItemGood =13094
+
+Step-2-01
+(array) size(8) [
+. . . id => 169
+. . . customer_id => 162
+. . . company_id => 1
+. . . name => Spraybest.nl
+. . . pid => 1527551
+. . . description => 
+. . . visibility => 
+. . . grouppa => 
+]
+
+Step-2-02
+(array) size(27) [
+. . . id => 13094
+. . . invoice_id => 
+. . . artikul_id => 
+. . . customer_id => 162
+. . . project_id => 169
+. . . user_id => 46
+. . . company_id => 1
+. . . position => 0
+. . . tid => 21641280
+. . . task => Import data table to spraybest.nl/bete-professionele-sproeiers/bete-mist-en-nevelsproeiers/bete-ha-serie/
+. . . tasknl => Gegevenstabel importeren naar spraybest.nl/bete-professionele-sproeiers/bete-mist-en-nevelsproeiers/bete-ha-serie/
+. . . quantity => 0.667
+. . . quantityplan => 0.667
+. . . quantitylost => 0.000
+. . . price => 
+. . . total => 
+. . . start => 2023-06-06T08:46:00Z
+. . . stop => 2023-06-06T12:36:21Z
+. . . period => 2023-06-06
+. . . created_at => 
+. . . updated_at => 2023-06-07 04:00:21
+. . . status => 
+. . . score => 1
+. . . level => =
+. . . source => Teamwork
+. . . import => 2023-06-07 04:00:21
+. . . tag => 
+]
+
+Step-2-3
+(array) size(25) [
+. . . id => 1174
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:44:24
+. . . doc_number => 202353
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 6.77
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21.00
+. . . vatsum => 1.42
+. . . totalvat => 8.19
+. . . mark => 
+. . . quantity => 1.500
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(2) [
+. . . . . . (array) size(27) [
+. . . . . . . . . id => 13141
+. . . . . . . . . invoice_id => 1174
+. . . . . . . . . artikul_id => 6
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 46
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21661392
+. . . . . . . . . task => www.spraybest.be/ --> spraybest.be
+. . . . . . . . . tasknl =>  #21661392 www.spraybest.be/ --> spraybest.be
+. . . . . . . . . quantity => 0.183
+. . . . . . . . . quantityplan => 0.183
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 37.00
+. . . . . . . . . total => 6.77
+. . . . . . . . . start => 2023-06-09T17:44:00Z
+. . . . . . . . . stop => 2023-06-09T18:14:14Z
+. . . . . . . . . period => 2023-06-09
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:44:36
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-10 04:00:10
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . . . . 1=>(array) size(27) [
+. . . . . . . . . id => 13206
+. . . . . . . . . invoice_id => 1174
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 17
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21479804
+. . . . . . . . . task => How to show information in this issue on contact page?
+. . . . . . . . . tasknl =>  #21479804 Hoe toon ik informatie in dit nummer op de contactpagina?
+. . . . . . . . . quantity => 1.317
+. . . . . . . . . quantityplan => 1.317
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-11T18:24:00Z
+. . . . . . . . . stop => 2023-06-11T19:22:46Z
+. . . . . . . . . period => 2023-06-11
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:44:24
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-12 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . ]
+]
+
+Step-3
+(array) size(25) [
+. . . id => 1174
+. . . customer_id => 162
+. . . company_id => 1
+. . . doc_date => 2023-06-27 13:44:24
+. . . doc_number => 202353
+. . . order_id => 
+. . . bill_id => 
+. . . currency_code => EUR
+. . . total => 6.77
+. . . tax_total => 
+. . . status => not ready
+. . . status0 => open
+. . . status1 => manual
+. . . vatcoeff => 21.00
+. . . vatsum => 1.42
+. . . totalvat => 8.19
+. . . mark => 
+. . . quantity => 1.500
+. . . factuurnummer => 
+. . . datum => 
+. . . urlpdfbestand => 
+. . . submitted_at => 
+. . . period => 2023-06
+. . . tag => 
+. . . rows=>(array) size(2) [
+. . . . . . (array) size(27) [
+. . . . . . . . . id => 13141
+. . . . . . . . . invoice_id => 1174
+. . . . . . . . . artikul_id => 6
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 46
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21661392
+. . . . . . . . . task => www.spraybest.be/ --> spraybest.be
+. . . . . . . . . tasknl =>  #21661392 www.spraybest.be/ --> spraybest.be
+. . . . . . . . . quantity => 0.183
+. . . . . . . . . quantityplan => 0.183
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 37.00
+. . . . . . . . . total => 6.77
+. . . . . . . . . start => 2023-06-09T17:44:00Z
+. . . . . . . . . stop => 2023-06-09T18:14:14Z
+. . . . . . . . . period => 2023-06-09
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:44:36
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-10 04:00:10
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . . . . 1=>(array) size(27) [
+. . . . . . . . . id => 13206
+. . . . . . . . . invoice_id => 1174
+. . . . . . . . . artikul_id => 
+. . . . . . . . . customer_id => 162
+. . . . . . . . . project_id => 169
+. . . . . . . . . user_id => 17
+. . . . . . . . . company_id => 1
+. . . . . . . . . position => 1
+. . . . . . . . . tid => 21479804
+. . . . . . . . . task => How to show information in this issue on contact page?
+. . . . . . . . . tasknl =>  #21479804 Hoe toon ik informatie in dit nummer op de contactpagina?
+. . . . . . . . . quantity => 1.317
+. . . . . . . . . quantityplan => 1.317
+. . . . . . . . . quantitylost => 0.000
+. . . . . . . . . price => 
+. . . . . . . . . total => 
+. . . . . . . . . start => 2023-06-11T18:24:00Z
+. . . . . . . . . stop => 2023-06-11T19:22:46Z
+. . . . . . . . . period => 2023-06-11
+. . . . . . . . . created_at => 
+. . . . . . . . . updated_at => 2023-06-27 13:44:24
+. . . . . . . . . status => 
+. . . . . . . . . score => 1
+. . . . . . . . . level => =
+. . . . . . . . . source => Teamwork
+. . . . . . . . . import => 2023-06-12 04:00:11
+. . . . . . . . . tag => 
+. . . . . . ]
+. . . ]
+]
+
+toRelease
+(array) size(0) [
+]

@@ -1,0 +1,9 @@
+{
+    "require": {
+        "google/apiclient": "2.0",
+        "bulkgate/sms": "^2.1",
+        "nategood/httpful": "^0.3.2",
+        "mollie/mollie-api-php": "^2.0"
+    }
+
+}

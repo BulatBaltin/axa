@@ -1,0 +1,3 @@
+<?
+$special_header = true;
+
