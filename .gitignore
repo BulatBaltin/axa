@@ -1,5 +1,7 @@
 public/.htaccess
+public/images/*
+public/pdf/*
+public/assets/*
 logs/*
 app/projects/testing/*
 vendor/*
-.env
